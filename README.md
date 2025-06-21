@@ -45,15 +45,11 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgresql,prismagit,github,vscode,html,css,tailwind" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,github,vscode,html,css,tailwind" />
   </a>
 </p>
 
-<p align="center">
-  Leveraging a diverse tech stack to bring ideas to life, from pixel-perfect UIs to robust backend systems.
-</p>
 
----
 
 <h2 align="center">📈 GitHub Stats & Language Usage</h2>
 
@@ -78,24 +74,6 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 
 </div>
 
-<p align="center">
-  Dive into some of my recent work! Each project showcases my commitment to clean code and robust solutions.
-</p>
-
----
-
-<h2 align="center">🌱 What I'm Learning / Exploring</h2>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,rust,kubernetes" />
-  </a>
-</p>
-<p align="center">
-  Always curious, always growing. Currently diving deeper into Go, Rust, and Kubernetes to broaden my horizons.
-</p>
-
----
 
 <h2 align="center">🤝 Let's Connect!</h2>
 
