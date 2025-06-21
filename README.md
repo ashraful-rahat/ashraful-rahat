@@ -52,9 +52,6 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 
 </div>
 
-### 📆 Contribution Heatmap
-[![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=ashrafulrahat&theme=react-dark&hide_border=true&area=true&custom_title=My+Contribution+Activity)](https://github.com/ashrafulrahat)
-
 </div>
 📈 Contribution Graph
 <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashrafulrahat&theme=react-dark&hide_border=true&area=true" alt="ashrafulrahat" /> </p>
