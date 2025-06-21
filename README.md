@@ -1,6 +1,6 @@
 # Hi there, I'm Ashraful Rahat 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=38BDF8&width=500&lines=Full+Stack+Developer;Next.js+Specialist;Open+Source+Contributor;Tech+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=38BDF8&width=500&lines=Full+Stack+Developer;Next.js+Specialist;;Tech+Enthusiast)](https://git.io/typing-svg)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ashrafulrahat&label=Profile+Views&color=blueviolet&style=flat" alt="ashrafulrahat" />
