@@ -45,7 +45,7 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgresql,prisma,graphql,docker,aws,git,github,vscode,html,css,tailwind,bootstrap" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgresql,prismagit,github,vscode,html,css,tailwind" />
   </a>
 </p>
 
