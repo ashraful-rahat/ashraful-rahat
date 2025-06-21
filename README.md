@@ -40,7 +40,7 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashrafulrahat&layout=donut-vertical&theme=aura&hide_border=true&langs_count=8&hide=html,css,scss,less,procfile,makefile&custom_title=Code+Distribution&size_weight=0.5&count_weight=0.5)](https://github.com/ashrafulrahat)
 
 ### 📌 Pinned Skill Metrics
-```javascript
+javascript
 // Dynamically weighted skills based on actual GitHub activity
 const skillWeights = {
   // Calculated from your repository language stats
