@@ -64,15 +64,8 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 
 ---
 
-<h2 align="center">🌟 Featured Projects</h2>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-[![Your Actual Project Title 1](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=your-actual-repo-name-1&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/your-actual-repo-name-1)
-[![Your Actual Project Title 2](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=your-actual-repo-name-2&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/your-actual-repo-name-2)
-[![Your Actual Project Title 3](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=your-actual-repo-name-3&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/your-actual-repo-name-3)
-
-</div>
 
 
 <h2 align="center">🤝 Let's Connect!</h2>
