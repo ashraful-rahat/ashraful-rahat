@@ -30,12 +30,32 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 [![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
-📊 GitHub Analytics
-<p align="center"> <a href="https://github.com/ashrafulrahat"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ashrafulrahat&show_icons=true&theme=radical&include_all_commits=true&count_private=true" /> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashrafulrahat&layout=compact&langs_count=8&theme=radical&hide=procfile" /> </a> </p><p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=ashrafulrahat&theme=radical" alt="ashrafulrahat" /> </p>
-🏆 GitHub Trophies
-<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=ashrafulrahat&theme=radical&no-frame=true&row=1&column=7" alt="ashrafulrahat" /> </p>
-🌟 Featured Projects
-<div align="center"> <a href="https://github.com/ashrafulrahat/project1"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=project1&theme=radical" /> </a> <a href="https://github.com/ashrafulrahat/project2"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=project2&theme=radical" /> </a> </div>
+## 📊 GitHub Insights
+
+<div align="center">
+
+### 🏆 Achievement Overview
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ashrafulrahat&theme=nord&no-frame=true&row=2&column=4&margin-w=15&margin-h=15)](https://github.com/ashrafulrahat)
+
+### 📈 Activity Metrics
+| Statistic | Visualization |
+|-----------|--------------|
+| **Profile Summary** | [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ashrafulrahat&show_icons=true&theme=aura&hide_border=true&include_all_commits=true&count_private=true&custom_title=Ashraful's+GitHub+Stats)](https://github.com/ashrafulrahat) |
+| **Coding Streak** | [![GitHub Streak](https://streak-stats.demolab.com?user=ashrafulrahat&theme=aura&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats) |
+| **Language Distribution** | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashrafulrahat&layout=compact&theme=aura&hide_border=true&langs_count=6&hide=Procfile,Makefile)](https://github.com/ashrafulrahat) |
+
+### 🌟 Project Showcase
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+
+[![Featured Project 1](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=project1&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/project1)
+[![Featured Project 2](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=project2&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/project2)
+
+</div>
+
+### 📆 Contribution Heatmap
+[![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=ashrafulrahat&theme=react-dark&hide_border=true&area=true&custom_title=My+Contribution+Activity)](https://github.com/ashrafulrahat)
+
+</div>
 📈 Contribution Graph
 <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashrafulrahat&theme=react-dark&hide_border=true&area=true" alt="ashrafulrahat" /> </p>
 📫 Let's Connect
