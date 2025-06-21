@@ -32,34 +32,80 @@ I'm a passionate full-stack developer specializing in modern web technologies wi
 
 
 
-## 🚀 Core Skills Focus
-
 <div align="center">
+  <img src="https://raw.githubusercontent.com/MicaelliCode/MicaelliCode/master/assets/welcome.gif" alt="Welcome GIF" width="600" />
+</div>
 
-### 🔥 Real GitHub Language Usage
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashrafulrahat&layout=donut-vertical&theme=aura&hide_border=true&langs_count=8&hide=html,css,scss,less,procfile,makefile&custom_title=Code+Distribution&size_weight=0.5&count_weight=0.5)](https://github.com/ashrafulrahat)
+<h1 align="center">Hi there, I'm Ashraful Rahat! 👋</h1>
+<p align="center">A passionate Full-Stack Developer with a knack for building scalable and user-friendly web applications.</p>
 
-### 📌 Pinned Skill Metrics
-javascript
-// Dynamically weighted skills based on actual GitHub activity
-const skillWeights = {
-  // Calculated from your repository language stats
-  TypeScript: Math.min(100, 20 + (commits * 0.3)), 
-  JavaScript: Math.min(100, 15 + (prs * 0.4)),
-  React: Math.min(100, 10 + (issues * 0.2)),
-  'Next.js': Math.min(100, 5 + (repos * 0.1)),
-  'Node.js': Math.min(100, 5 + (contributions * 0.15))
-};
-### 🌟 Project Showcase
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+---
 
-[![Featured Project 1](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=project1&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/project1)
-[![Featured Project 2](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=project2&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/project2)
+<h2 align="center">🚀 My Core Skills & Technologies</h2>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgresql,prisma,graphql,docker,aws,git,github,vscode,html,css,tailwind,bootstrap" />
+  </a>
+</p>
+
+<p align="center">
+  Leveraging a diverse tech stack to bring ideas to life, from pixel-perfect UIs to robust backend systems.
+</p>
+
+---
+
+<h2 align="center">📈 GitHub Stats & Language Usage</h2>
+
+<p align="center">
+  <a href="https://github.com/ashrafulrahat">
+    <img src="https://github-readme-stats.vercel.app/api?username=ashrafulrahat&show_icons=true&theme=aura&hide_border=true&count_private=true" alt="Ashraful Rahat's GitHub Stats" />
+  </a>
+  <a href="https://github.com/ashrafulrahat">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashrafulrahat&layout=compact&theme=aura&hide_border=true&langs_count=8&hide=html,css,scss,less,procfile,makefile" alt="Top Languages" />
+  </a>
+</p>
+
+---
+
+<h2 align="center">🌟 Featured Projects</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+[![Your Actual Project Title 1](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=your-actual-repo-name-1&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/your-actual-repo-name-1)
+[![Your Actual Project Title 2](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=your-actual-repo-name-2&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/your-actual-repo-name-2)
+[![Your Actual Project Title 3](https://github-readme-stats.vercel.app/api/pin/?username=ashrafulrahat&repo=your-actual-repo-name-3&theme=aura&show_owner=true)](https://github.com/ashrafulrahat/your-actual-repo-name-3)
 
 </div>
 
-</div>
-📈 Contribution Graph
-<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashrafulrahat&theme=react-dark&hide_border=true&area=true" alt="ashrafulrahat" /> </p>
-📫 Let's Connect
-<p align="center"> <a href="https://linkedin.com/in/yourprofile"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://twitter.com/yourhandle"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /> </a> <a href="https://dev.to/yourhandle"> <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" /> </a> <a href="mailto:your.email@example.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> </p> ```
+<p align="center">
+  Dive into some of my recent work! Each project showcases my commitment to clean code and robust solutions.
+</p>
+
+---
+
+<h2 align="center">🌱 What I'm Learning / Exploring</h2>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=go,rust,kubernetes" />
+  </a>
+</p>
+<p align="center">
+  Always curious, always growing. Currently diving deeper into Go, Rust, and Kubernetes to broaden my horizons.
+</p>
+
+---
+
+<h2 align="center">🤝 Let's Connect!</h2>
+
+<p align="center">
+  <a href="https://linkedin.com/in/your_linkedin_profile" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://twitter.com/your_twitter_handle" target="_blank"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
+
+<p align="center">
+  Feel free to reach out if you'd like to collaborate on a project or just chat about tech!
+</p>
+
