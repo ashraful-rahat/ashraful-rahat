@@ -1,20 +1,19 @@
-import About from '@/components/About';
-import Banner from '@/components/Banner';
-import Skills from '@/components/Skill';
-import WhatIDo from '@/components/WhatIDo';
-
-
-import React from 'react';
+import About from "@/components/About";
+import Banner from "@/components/Banner";
+import Education from "@/components/Education";
+import Project from "@/components/Project";
+import Skills from "@/components/Skill";
 
 const page = () => {
   return (
     <div>
-    
       <Banner />
 
       <About></About>
-  <Skills></Skills>
-  <WhatIDo></WhatIDo>
+      <Project></Project>
+      <Skills></Skills>
+      {/* <WhatIDo></WhatIDo> */}
+      <Education></Education>
     </div>
   );
 };
