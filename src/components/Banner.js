@@ -19,7 +19,7 @@ const Banner = () => {
     { name: "About", id: "about" },
     { name: "Projects", id: "projects" },
     { name: "Skills", id: "skills" },
-    // { name: "Education", id: "education" },
+    { name: "Education", id: "education" },
     { name: "Contact", id: "contact" },
   ];
 
@@ -342,7 +342,7 @@ const Banner = () => {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2 text-sm text-gray-400">
                     <Mail size={14} className="text-blue-400" />
-                    <span>fulrahat34@gmail.com</span>
+                    <span>ashrafulrahat34@gmail.com</span>
                   </div>
                   <motion.button
                     onClick={copyEmail}
@@ -455,7 +455,7 @@ const Banner = () => {
           <div className="flex items-center gap-3 bg-transparent rounded-full group relative">
             <span className="text-gray-300 font-medium text-sm flex items-center gap-2">
               <Mail size={14} className="text-blue-400" />
-              fulrahat34@gmail.com
+              ashrafulrahat34@gmail.com
             </span>
             <motion.button
               onClick={copyEmail}

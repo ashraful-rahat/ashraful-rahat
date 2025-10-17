@@ -2,7 +2,7 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
 import Education from "@/components/Education";
-
+import Footer from "@/components/Footer";
 import Project from "@/components/Project";
 import Skills from "@/components/Skill";
 
@@ -38,6 +38,8 @@ export default function HomePage() {
       <section id="contact">
         <Contact />
       </section>
+
+      <Footer />
     </div>
   );
 }
