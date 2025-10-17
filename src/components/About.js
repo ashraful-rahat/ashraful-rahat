@@ -37,9 +37,9 @@ export default function About() {
         ref={heroRef}
         className="min-h-screen flex items-center justify-center px-6 relative z-10"
       >
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-7xl mx-auto w-full">
           {/* Top Gradient Line */}
-          <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-12" />
+          <div className="h-px bg-gradient-to-r mt-from-transparent via-white/10 to-transparent mb-12" />
 
           {/* About Me Container */}
           <div className="relative">
@@ -61,10 +61,10 @@ export default function About() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mb-6 flex items-center justify-center gap-3"
+                className="mb-6 flex mt-25 items-center justify-center gap-3"
               >
                 <div className="h-px w-12 bg-white/20" />
-                <span className="text-sm md:text-base tracking-[0.3em] text-gray-400 uppercase font-light">
+                <span className="text-sm  md:text-base tracking-[0.3em] text-gray-400 uppercase font-light">
                   More About Me
                 </span>
                 <div className="h-px w-12 bg-white/20" />
@@ -208,7 +208,7 @@ export default function About() {
                   >
                     <div className="bg-black/95 p-3 rounded-xl border border-white/20 shadow-2xl backdrop-blur-sm">
                       <Image
-                        src="/images/logo.png"
+                        src="/images/internship.png"
                         alt="Codexaa Limited Internship Certificate"
                         width={220}
                         height={160}

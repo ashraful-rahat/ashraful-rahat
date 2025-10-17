@@ -1,21 +1,43 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
 import Education from "@/components/Education";
+
 import Project from "@/components/Project";
 import Skills from "@/components/Skill";
 
-const page = () => {
+export default function HomePage() {
   return (
     <div>
-      <Banner />
+      {/* Home Section */}
+      <section id="home">
+        <Banner />
+      </section>
 
-      <About></About>
-      <Project></Project>
-      <Skills></Skills>
-      {/* <WhatIDo></WhatIDo> */}
-      <Education></Education>
+      {/* About Section */}
+      <section id="about">
+        <About />
+      </section>
+
+      {/* Project Section */}
+      <section id="projects">
+        <Project />
+      </section>
+
+      {/* Skills Section */}
+      <section id="skills">
+        <Skills />
+      </section>
+
+      {/* Education Section */}
+      <section>
+        <Education />
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
-};
-
-export default page;
+}

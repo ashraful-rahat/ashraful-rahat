@@ -10,7 +10,7 @@ const lexend = Lexend({
 });
 
 export const metadata = {
-  title: "Your App",
+  title: "Ashraful Rahat | Full Stack Developer",
   description: "Your app description here",
 };
 
