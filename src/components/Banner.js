@@ -33,10 +33,71 @@ const Banner = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       setIsScrolled(scrollY > 50);
+
+      // ✅ Improved section detection
+      const sections = navItems
+        .map((item) => {
+          const element = document.getElementById(item.id);
+          if (element) {
+            const rect = element.getBoundingClientRect();
+            return {
+              id: item.id,
+              top: rect.top,
+              bottom: rect.bottom,
+              height: rect.height,
+            };
+          }
+          return null;
+        })
+        .filter(Boolean);
+
+      // Find the current active section
+      const viewportHeight = window.innerHeight;
+      const currentSection =
+        sections.find(
+          (section) =>
+            section.top <= viewportHeight / 3 &&
+            section.bottom >= viewportHeight / 3
+        ) ||
+        sections.find((section) => section.top <= 100 && section.bottom >= 100);
+
+      if (currentSection) {
+        setActiveNav(currentSection.id);
+      }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    // Initial check
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // ✅ Alternative: Intersection Observer (More accurate)
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: "-20% 0px -60% 0px", // Adjust this to trigger earlier/later
+      threshold: 0,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveNav(entry.target.id);
+        }
+      });
+    }, observerOptions);
+
+    // Observe all sections
+    navItems.forEach((item) => {
+      const section = document.getElementById(item.id);
+      if (section) {
+        observer.observe(section);
+      }
+    });
+
+    return () => observer.disconnect();
   }, []);
 
   const containerVariants = {
@@ -86,7 +147,7 @@ const Banner = () => {
     }),
   };
 
-  // ✅ Improved scroll handler with better error handling
+  // ✅ Improved scroll handler
   const handleNavClick = (item) => {
     setActiveNav(item.id);
     setIsMenuOpen(false);
@@ -99,7 +160,6 @@ const Banner = () => {
       return;
     }
 
-    // Wait a bit for mobile menu to close
     setTimeout(() => {
       const section = document.getElementById(item.id);
       if (section) {
@@ -110,21 +170,6 @@ const Banner = () => {
           top: sectionTop,
           behavior: "smooth",
         });
-      } else {
-        console.log(`Section with id '${item.id}' not found`);
-        // Fallback: try to find by data attribute
-        const fallbackSection = document.querySelector(
-          `[data-section="${item.id}"]`
-        );
-        if (fallbackSection) {
-          const offset = 80;
-          const sectionTop = fallbackSection.offsetTop - offset;
-
-          window.scrollTo({
-            top: sectionTop,
-            behavior: "smooth",
-          });
-        }
       }
     }, 300);
   };
@@ -149,7 +194,6 @@ const Banner = () => {
           delay: 0.2,
         }}
         style={{
-          // Only show border when scrolled
           borderWidth: isScrolled ? "1px" : "0px",
         }}
       >
@@ -158,7 +202,11 @@ const Banner = () => {
           {navItems.map((item, index) => (
             <motion.button
               key={item.id}
-              className="text-gray-300 hover:text-white text-sm font-medium transition-all duration-300 relative py-2 px-1 group"
+              className={`text-sm font-medium transition-all duration-300 relative py-2 px-1 group ${
+                activeNav === item.id
+                  ? "text-white"
+                  : "text-gray-300 hover:text-white"
+              }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               initial={{ opacity: 0, y: -10 }}
@@ -198,17 +246,18 @@ const Banner = () => {
 
         {/* Mobile Navigation */}
         <div className="md:hidden flex items-center justify-between w-full">
-          {/* Mobile Logo/Brand - Optional */}
           <motion.span
-            className="text-white text-sm font-medium"
+            className={`text-sm font-medium ${
+              activeNav === "home" ? "text-white" : "text-gray-300"
+            }`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            Portfolio
+            {navItems.find((item) => item.id === activeNav)?.name ||
+              "Portfolio"}
           </motion.span>
 
-          {/* Mobile Menu Button */}
           <motion.button
             className="p-2 text-gray-300 hover:text-white transition-all duration-300 rounded-full hover:bg-white/10"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -289,7 +338,11 @@ const Banner = () => {
                 {navItems.map((item, index) => (
                   <motion.button
                     key={item.id}
-                    className="w-full py-4 px-4 text-lg font-medium text-gray-300 hover:text-white transition-all duration-300 relative rounded-xl hover:bg-white/5 text-left"
+                    className={`w-full py-4 px-4 text-lg font-medium transition-all duration-300 relative rounded-xl hover:bg-white/5 text-left ${
+                      activeNav === item.id
+                        ? "text-white bg-white/10"
+                        : "text-gray-300 hover:text-white"
+                    }`}
                     variants={navItemVariants}
                     initial="closed"
                     animate="open"
@@ -311,13 +364,7 @@ const Banner = () => {
                         />
                       )}
 
-                      <span
-                        className={`${
-                          activeNav === item.id ? "text-white" : "text-gray-300"
-                        }`}
-                      >
-                        {item.name}
-                      </span>
+                      <span>{item.name}</span>
                     </div>
 
                     {index < navItems.length - 1 && (
@@ -364,13 +411,14 @@ const Banner = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Content */}
+      {/* Rest of your Banner component remains the same */}
       <motion.div
         className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center max-w-6xl mx-auto"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
+        {/* ... your existing hero content ... */}
         <motion.div variants={itemVariants} className="mb-6">
           <TextPressure
             text="Full Stack"

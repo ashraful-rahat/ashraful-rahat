@@ -30,7 +30,9 @@ export default function HomePage() {
       </section>
 
       {/* Education Section */}
-      <section>
+      <section id="education">
+        {" "}
+        {/* ✅ ID যোগ করুন */}
         <Education />
       </section>
 
