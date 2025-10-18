@@ -44,7 +44,7 @@ export default function Education() {
       id: 2,
       degree: "Diploma in Computer Science",
       shortDegree: "Diploma CST",
-      institution: "Feni Polytechnic Institute",
+      institution: "Feni Computer  Institute",
       year: "2024",
       result: "CGPA 3.46",
       duration: "2020 — 2024",
